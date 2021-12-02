@@ -1,0 +1,31 @@
+header{
+    background-color: #2e3a46;
+    height: 80px;
+    padding: 15px;
+}
+header img {
+    height: 50px;
+    width: 50px;
+}
+
+main {
+    background-color: #1e2d3b;
+}
+.card {
+    text-align: center;
+    height: 400px;
+    padding: 20px;
+    background-color: #2e3a46;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    
+}
+.card h5 {
+    color: white;
+}
+.card p {
+    color: #6a757c;
+    margin: 0;
+}
