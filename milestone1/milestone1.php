@@ -28,15 +28,15 @@
                 include 'dischi.php';
                 foreach ($dischi as $disco) {
                     echo "  <div class='col'>
-                            <div class='card'>
-                                <img src='$disco[poster]' class='card-img-top' alt=''>
-                                <div class='card-body'>
-                                    <h5 class='card-title'>$disco[title]</h5>
-                                    <p class='card-text'>$disco[author]</p>
-                                    <p class='card-text'>$disco[year]</p>
+                                <div class='card'>
+                                    <img src='$disco[poster]' class='card-img-top' alt=''>
+                                    <div class='card-body'>
+                                        <h5 class='card-title'>$disco[title]</h5>
+                                        <p class='card-text'>$disco[author]</p>
+                                        <p class='card-text'>$disco[year]</p>
+                                    </div>
                                 </div>
-                            </div>
-                        </div> ";
+                            </div> ";
                 }
 
                 ?>
