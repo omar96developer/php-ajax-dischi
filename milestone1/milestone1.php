@@ -25,7 +25,7 @@
             <div class="row row-cols-5 g-4">
                 <?php
 
-                include 'dischi.php';
+                require_once 'dischi.php';
                 foreach ($dischi as $disco) {
                     echo "  <div class='col'>
                                 <div class='card'>
